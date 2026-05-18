@@ -26,15 +26,15 @@ export default function Home() {
   ]
 
   const quickInfo = [
-    { label: 'Naam', value: '[Jouw Naam]' },
+    { label: 'Naam', value: 'Damyan Maxwell' },
     { label: 'Functie', value: '[Software Developer Stagiair]' },
-    { label: 'Studie', value: '[Opleiding + School]' },
+    { label: 'Studie', value: '[Software Developer | Scalda Terneuzen]' },
     { label: 'Stagebedrijf', value: '[Naam Stagebedrijf]' },
     { label: 'Beschikbaar Vanaf', value: '[DD-MM-JJJJ]' },
-    { label: 'E-mail', value: '[jouw.email@voorbeeld.nl]' },
-    { label: 'Telefoon', value: '[+31 6 12345678]' },
+    { label: 'E-mail', value: '[dmaxwell@student.scalda.nl]' },
+    { label: 'Telefoon', value: '[+31 6 23951203]' },
     { label: 'CV Link', value: '[Link naar CV]' },
-    { label: 'GitHub', value: '[github.com/jouwprofiel]' },
+    { label: 'GitHub', value: '[https://github.com/BlackNyteJr]' },
     { label: 'LinkedIn', value: '[linkedin.com/in/jouwprofiel]' },
   ]
 

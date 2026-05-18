@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 import { Manrope, Space_Grotesk } from 'next/font/google'
 import './globals.css'
-import Navigation from '@/components/Navigation'
-import Footer from '@/components/Footer'
+import Navigation from '../components/Navigation'
+import Footer from '../components/Footer'
+import SpeedInsightsWrapper from '../components/SpeedInsightsWrapper'
 
 const manrope = Manrope({
   subsets: ['latin'],
@@ -55,6 +56,7 @@ export default function RootLayout({
           </main>
           <Footer />
         </div>
+        <SpeedInsightsWrapper />
       </body>
     </html>
   )
