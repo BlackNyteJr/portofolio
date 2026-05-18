@@ -3,6 +3,7 @@ import { Manrope, Space_Grotesk } from 'next/font/google'
 import './globals.css'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const manrope = Manrope({
   subsets: ['latin'],
@@ -55,6 +56,7 @@ export default function RootLayout({
           </main>
           <Footer />
         </div>
+        <SpeedInsights />
       </body>
     </html>
   )
