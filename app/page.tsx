@@ -27,14 +27,14 @@ export default function Home() {
 
   const quickInfo = [
     { label: 'Naam', value: 'Damyan Maxwell' },
-    { label: 'Functie', value: '[Software Developer Stagiair]' },
-    { label: 'Studie', value: '[Software Developer | Scalda Terneuzen]' },
+    { label: 'Functie', value: 'Software Developer Stagiair' },
+    { label: 'Studie', value: 'Software Developer | Scalda Terneuzen' },
     { label: 'Stagebedrijf', value: '[Naam Stagebedrijf]' },
     { label: 'Beschikbaar Vanaf', value: '[DD-MM-JJJJ]' },
-    { label: 'E-mail', value: '[dmaxwell@student.scalda.nl]' },
-    { label: 'Telefoon', value: '[+31 6 23951203]' },
+    { label: 'E-mail', value: 'dmaxwell@student.scalda.nl' },
+    { label: 'Telefoon', value: '+31 6 23951203' },
     { label: 'CV Link', value: '[Link naar CV]' },
-    { label: 'GitHub', value: '[https://github.com/BlackNyteJr]' },
+    { label: 'GitHub', value: 'https://github.com/BlackNyteJr' },
     { label: 'LinkedIn', value: '[linkedin.com/in/jouwprofiel]' },
   ]
 
@@ -73,7 +73,7 @@ export default function Home() {
             className="text-lg sm:text-2xl text-gray-200/90 mb-12 max-w-3xl mx-auto"
             variants={fadeInUp}
           >
-            [Jouw Naam] | Software Development Professional | Communicatie & Samenwerking
+            Damyan Maxwell | Software Development Professional | Communicatie & Samenwerking
           </motion.p>
 
           <motion.div
