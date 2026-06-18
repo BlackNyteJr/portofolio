@@ -21,7 +21,7 @@ const staggerContainer = {
 export default function Home() {
   const highlights = [
     'Beschikbaar voor stage vanaf [Maand Jaar]',
-    'Locatie: [Jouw Stad]',
+    'Locatie: Aardenburg, Nederland',
     'Specialisatie: Frontend & Full-stack'
   ]
 
@@ -71,7 +71,7 @@ export default function Home() {
             className="text-lg sm:text-2xl text-gray-200/90 mb-12 max-w-3xl mx-auto"
             variants={fadeInUp}
           >
-            Damyan Maxwell | Software Development Professional | Communicatie & Samenwerking
+            Damyan Maxwell | Software Development Student | Communicatie & Samenwerking
           </motion.p>
 
           <motion.div
@@ -111,7 +111,6 @@ export default function Home() {
             className="mt-10 text-left"
             variants={fadeInUp}
           >
-            <p className="text-white font-semibold mb-4 text-center">Snel Invullen (Placeholders)</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
               {quickInfo.map((item) => (
                 <motion.div
@@ -135,7 +134,7 @@ export default function Home() {
             {[
               { number: '3+', label: 'Projecten' },
               { number: '2', label: 'Jaar Ervaring' },
-              { number: '6+', label: 'Technologieën' }
+              { number: '4+', label: 'Technologieën' }
             ].map((stat, index) => (
               <motion.div
                 key={index}
