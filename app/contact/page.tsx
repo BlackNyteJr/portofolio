@@ -41,15 +41,15 @@ export default function Contact() {
         >
           <h1 className="text-5xl font-bold mb-4 text-center">Contact</h1>
           <p className="text-xl text-gray-300 mb-12 text-center">
-            Heb je een vraag of wil je samenwerken? Vul de placeholders in en je bent live.
+            Heb je een vraag of wil je samenwerken?
           </p>
 
           {/* Contact Methods */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
               {[
-              { icon: '✉️', label: 'Email', value: '[jouw.email@voorbeeld.nl]' },
-              { icon: '📱', label: 'Telefoon', value: '[+31 6 12345678]' },
-              { icon: '📍', label: 'Locatie', value: '[Jouw Stad, Nederland]' }
+              { icon: '✉️', label: 'Email', value: 'dmaxwell@student.scalda.nl' },
+              { icon: '📱', label: 'Telefoon', value: '[+31 6 23951203]' },
+              { icon: '📍', label: 'Locatie', value: '[Aardenburg, Nederland]' }
             ].map((method, index) => (
               <motion.div
                 key={index}
@@ -83,7 +83,7 @@ export default function Contact() {
                 onChange={handleChange}
                 required
                 className="w-full px-4 py-3 bg-secondary border border-gray-600/30 rounded-lg focus:border-gray-400 focus:outline-none text-white transition-colors"
-                placeholder="[Jouw naam]"
+                placeholder="Jouw naam"
               />
             </div>
 
@@ -96,7 +96,7 @@ export default function Contact() {
                 onChange={handleChange}
                 required
                 className="w-full px-4 py-3 bg-secondary border border-gray-600/30 rounded-lg focus:border-gray-400 focus:outline-none text-white transition-colors"
-                placeholder="[jouw.email@voorbeeld.nl]"
+                placeholder="email@voorbeeld.nl"
               />
             </div>
 
@@ -109,7 +109,7 @@ export default function Contact() {
                 required
                 rows={5}
                 className="w-full px-4 py-3 bg-secondary border border-gray-600/30 rounded-lg focus:border-gray-400 focus:outline-none text-white transition-colors resize-none"
-                placeholder="[Schrijf hier je bericht...]"
+                placeholder="Schrijf hier je bericht..."
               />
             </div>
 
@@ -130,9 +130,8 @@ export default function Contact() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.45 }}
           >
-            <p className="text-white font-semibold mb-2">Snelle placeholders om te vervangen:</p>
-            <p className="text-gray-300 text-sm">Reactietijd: [Binnen 24 uur]</p>
-            <p className="text-gray-300 text-sm">Beschikbaarheid: [Ma-Vr, 09:00 - 17:00]</p>
+            <p className="text-gray-300 text-sm">Reactietijd: Binnen 24 uur</p>
+            <p className="text-gray-300 text-sm">Beschikbaarheid: Ma-Vr, 09:00 - 14:45</p>
           </motion.div>
 
           {/* Social Links */}
@@ -144,10 +143,10 @@ export default function Contact() {
           >
             <p className="text-gray-300">Volg mij op sociale media:</p>
             <div className="flex justify-center gap-6">
-              {['LinkedIn', 'GitHub', 'Behance'].map((social, index) => (
+              {['LinkTree'].map((social, index) => (
                 <motion.a
                   key={index}
-                  href="[Plaats jouw link hier]"
+                  href="https://linktr.ee/damyanmaxwell"
                   className="text-white hover:text-gray-300 font-semibold transition-colors"
                   whileHover={{ scale: 1.1 }}
                 >

@@ -10,10 +10,10 @@ const fadeInUp = {
 
 export default function About() {
   const profilePlaceholders = [
-    { label: 'Naam', value: '[Jouw Naam]' },
-    { label: 'Leeftijd', value: '[Jouw Leeftijd]' },
+    { label: 'Naam', value: 'Damyan Maxwell' },
+    { label: 'Leeftijd', value: '[18' },
     { label: 'Stagebedrijf', value: '[Naam Bedrijf]' },
-    { label: 'Studie', value: '[Opleiding + Jaar]' }
+    { label: 'Studie', value: 'Software Development MBO Niveau 4 Leerjaar 2' }
   ]
 
   return (
@@ -108,7 +108,7 @@ export default function About() {
             >
               <h3 className="text-2xl font-semibold text-white mb-4">Software Development Stagiair</h3>
               <p className="text-gray-300 mb-4">
-                Tijdens mijn stage focus ik op het ontwikkelen van praktische vaardigheden en het 
+                Tijdens mijn stage wil ik focussen op het ontwikkelen van praktische vaardigheden en het 
                 bijdragen aan reële projecten. Ik werk aan het verbeteren van mijn technische kennis 
                 en het toepassen van mijn sterke punten in een professionele omgeving.
               </p>

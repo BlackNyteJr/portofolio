@@ -29,13 +29,11 @@ export default function Home() {
     { label: 'Naam', value: 'Damyan Maxwell' },
     { label: 'Functie', value: 'Software Developer Stagiair' },
     { label: 'Studie', value: 'Software Developer | Scalda Terneuzen' },
-    { label: 'Stagebedrijf', value: '[Naam Stagebedrijf]' },
-    { label: 'Beschikbaar Vanaf', value: '[DD-MM-JJJJ]' },
     { label: 'E-mail', value: 'dmaxwell@student.scalda.nl' },
     { label: 'Telefoon', value: '+31 6 23951203' },
     { label: 'CV Link', value: '[Link naar CV]' },
     { label: 'GitHub', value: 'https://github.com/BlackNyteJr' },
-    { label: 'LinkedIn', value: '[linkedin.com/in/jouwprofiel]' },
+    { label: 'LinkedIn', value: 'https://www.linkedin.com/in/damyan-maxwell-b074102a5/' },
   ]
 
   return (
@@ -135,9 +133,9 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { number: '5+', label: 'Projecten' },
-              { number: '3+', label: 'Jaar Ervaring' },
-              { number: '10+', label: 'Technologieën' }
+              { number: '3+', label: 'Projecten' },
+              { number: '2', label: 'Jaar Ervaring' },
+              { number: '6+', label: 'Technologieën' }
             ].map((stat, index) => (
               <motion.div
                 key={index}

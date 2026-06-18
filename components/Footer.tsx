@@ -16,9 +16,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 glass-card rounded-2xl p-8">
           {/* About Section */}
           <div>
-            <h3 className="text-2xl font-extrabold text-white mb-4">Dev Portfolio</h3>
+            <h3 className="text-2xl font-extrabold text-white mb-4">Mijn Dev Portfolio</h3>
             <p className="text-gray-300 text-sm">
-              Software Development Professional met passie voor innovatie en teamwork.
+              Software Development Student met passie voor innovatie en teamwork.
             </p>
           </div>
 

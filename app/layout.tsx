@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Manrope, Space_Grotesk } from 'next/font/google'
+// @ts-ignore: side-effect global CSS import
 import './globals.css'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'

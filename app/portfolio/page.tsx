@@ -5,18 +5,20 @@ import { motion } from 'framer-motion'
 export default function Portfolio() {
   const projects = [
     {
-      title: '[Project 1] Web Application',
-      description: 'Korte beschrijving van jouw project en impact op gebruiker of bedrijf.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'REST API'],
-      link: '#',
+      title: 'Gear2Go Web App',
+      description: 'Een Mobile First applicatie voor het huren van outdoor gear, gebouwd met React en Node.js. Uitdagingen waren onder andere het ontwerpen van een schaalbare backend en een intuïtieve gebruikersinterface.',
+      technologies: ['React', 'Node.js', 'JS', 'CSS'],
+      link: 'https://39490.hosts2.ma-cloud.nl/Scalda/Gear2Go/tnz-stonebit-g2g/web/index.php',
+      githubLink: 'https://bitbucket.org/delphinitysd/tnz-stonebit-b2g/src/development/',
       year: '2026',
       status: 'Live'
     },
     {
-      title: '[Project 2] E-Commerce Platform',
-      description: 'Korte beschrijving van jouw project en belangrijkste uitdaging.',
-      technologies: ['Next.js', 'TypeScript', 'Stripe', 'Tailwind CSS'],
-      link: '#',
+      title: 'Beer2Go Web App',
+      description: 'Een mobile applicatie voor het bestellen van bier, gebouwd met Next.js en Stripe. Uitdagingen waren onder andere het integreren van een veilige betalingsgateway en het optimaliseren van de gebruikerservaring.',
+      technologies: ['Next.js', 'PHP', 'Stripe', 'CSS'],
+      link: 'https://39490.hosts2.ma-cloud.nl/Scalda/Beer2Go/tnz-stonebit-b2g/public/index.php?page=login',
+      githubLink: 'https://bitbucket.org/delphinitysd/tnz-stonebit-b2g/src/development/',
       year: '2026',
       status: 'In Ontwikkeling'
     },
@@ -93,17 +95,12 @@ export default function Portfolio() {
                   <div className="flex items-center gap-4">
                     <motion.a
                       href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
                         className="inline-block text-white hover:text-gray-300 font-semibold"
                       whileHover={{ x: 5 }}
                     >
                       Live Demo →
-                    </motion.a>
-                    <motion.a
-                      href="#"
-                        className="inline-block text-gray-300 hover:text-white font-semibold"
-                      whileHover={{ x: 5 }}
-                    >
-                      GitHub →
                     </motion.a>
                   </div>
                 </div>
